@@ -1,0 +1,45 @@
+:root {
+    /* ==========================================================================
+       1. CORES - Paleta de 8 cores (Primárias, Secundárias, Neutras)
+       ========================================================================== */
+    --color-primary: #007bff;        /* Azul principal (Identidade da ONG) */
+    --color-primary-dark: #0056b3;   /* Azul escuro (Hover/Active) */
+    --color-secondary: #28a745;      /* Verde (Sucesso, Doações) */
+    --color-secondary-dark: #1e7e34; /* Verde escuro (Hover/Active) */
+    --color-neutral-light: #f8f9fa;  /* Cinza muito claro (Fundo) */
+    --color-neutral-medium: #6c757d; /* Cinza médio (Texto secundário) */
+    --color-neutral-dark: #343a40;   /* Cinza escuro (Texto principal) */
+    --color-white: #ffffff;          /* Branco */
+    --color-error: #dc3545;          /* Vermelho (Erros, Alertas) */
+
+    /* ==========================================================================
+       2. TIPOGRAFIA - 5 Tamanhos de Fonte
+       ========================================================================== */
+    --font-family-base: 'Arial', sans-serif;
+    --font-size-base: 16px;
+
+    --font-size-h1: 2.5rem;   /* ~40px */
+    --font-size-h2: 2rem;     /* ~32px */
+    --font-size-h3: 1.75rem;  /* ~28px */
+    --font-size-h4: 1.5rem;   /* ~24px */
+    --font-size-small: 0.875rem; /* ~14px */
+
+    /* ==========================================================================
+       3. ESPAÇAMENTO - Modular (8px, 16px, 24px, 32px, 48px, 64px)
+       ========================================================================== */
+    --spacing-xs: 8px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 48px;
+    --spacing-xxl: 64px;
+
+    /* ==========================================================================
+       4. BREAKPOINTS - 5 Breakpoints Responsivos
+       ========================================================================== */
+    --breakpoint-xs: 480px;  /* Mobile Pequeno */
+    --breakpoint-sm: 640px;  /* Mobile Grande */
+    --breakpoint-md: 768px;  /* Tablet */
+    --breakpoint-lg: 1024px; /* Desktop Pequeno */
+    --breakpoint-xl: 1280px; /* Desktop Grande */
+}

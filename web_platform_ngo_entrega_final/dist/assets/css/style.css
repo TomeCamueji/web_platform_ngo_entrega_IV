@@ -1,0 +1,82 @@
+/* Arquivo principal de estilização */
+
+/* Importação do Sistema de Design (Design System) */
+@import url('design-system.css');
+
+/* Importação dos Estilos Base e Reset */
+@import url('base.css');
+
+/* Importação dos Módulos de Layout */
+@import url('layout.css');
+
+/* Importação dos Componentes de Interface */
+@import url('components.css');
+
+/* Estilos de Acessibilidade */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Modo Alto Contraste */
+.high-contrast {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.high-contrast a, .high-contrast button {
+    color: #ffff00 !important;
+    border-color: #fff !important;
+}
+
+.high-contrast .card {
+    border: 2px solid #fff !important;
+    background-color: #000 !important;
+}
+
+.high-contrast .btn-primary {
+    background-color: #000 !important;
+    color: #ffff00 !important;
+    border: 2px solid #ffff00 !important;
+}
+
+.high-contrast .btn-primary:hover {
+    background-color: #ffff00 !important;
+    color: #000 !important;
+}
+
+/* Modo Escuro Acessível (Dark Mode) */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    header, footer {
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+    }
+    .card {
+        background-color: #1f1f1f;
+        border: 1px solid #333;
+    }
+    .btn-primary {
+        background-color: #0056b3;
+        color: #fff;
+    }
+    .btn-primary:hover {
+        background-color: #004085;
+    }
+}
+
+/* Importação dos Estilos Específicos das Páginas */
+@import url('pages.css');

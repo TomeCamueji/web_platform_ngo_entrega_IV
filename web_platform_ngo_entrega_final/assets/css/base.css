@@ -1,0 +1,67 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+    color: var(--color-neutral-dark);
+    background-color: var(--color-white);
+}
+
+/* Tipografia e Hierarquia */
+h1, h2, h3, h4 {
+    color: var(--color-neutral-dark);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-sm);
+}
+
+h1 { font-size: var(--font-size-h1); }
+h2 { font-size: var(--font-size-h2); }
+h3 { font-size: var(--font-size-h3); }
+h4 { font-size: var(--font-size-h4); }
+
+p {
+    margin-bottom: var(--spacing-sm);
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Classes de Utilidade para Espaçamento */
+.padding-sm { padding: var(--spacing-sm); }
+.margin-top-lg { margin-top: var(--spacing-lg); }
+
+/* Estilo para Imagens e Figuras */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figure {
+    margin-bottom: var(--spacing-md);
+}
+
+figcaption {
+    font-size: var(--font-size-small);
+    color: var(--color-neutral-medium);
+    text-align: center;
+    padding: var(--spacing-xs) 0;
+}
